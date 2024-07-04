@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient( circle 1292px at -13.6% 51.7%,  rgba(0,56,68,1) 0%, rgba(163,217,185,1) 51.5%, rgba(79,183,131,1) 88.6% );
+    color: #111111;
+}
+
+.card-box{
+    max-width: 500px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    position: relative;
+}
+.badge{
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #545454;
+    color: #fff;
+    border-radius: 7px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.card-img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.card-img{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card-text h2{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.card-text h4{
+    font-size: 22px;
+    font-weight: 600;
+    color: #545454;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card-text p{
+    font-size: 17px;
+    font-weight: 500;
+    color: #545454;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.profile-box,
+.btn-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 00px;
+}
+.profile-box p{
+    text-align: center;
+}
+.btn-box{
+    margin-bottom: 0;
+}
+.btn-box a{
+    display: inline-block;
+    padding: 12px 30px;
+    border: 1px solid #111111;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111;
+    transition: .3s;
+}
+.btn-box a:last-child,
+.btn-box a:hover{
+    background-color: #111111;
+    color: #fff;
+}
+.btn-box a:last-child:hover{
+    background-color: transparent;
+    color: #111111;
+}
